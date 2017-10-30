@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ContadorFragmentos</string>
+    <string name="texto_tv_app"> Conteo </string>
+    <string name="texto_tv_contador"> 0 </string>
+    <string name="texto_b_conteo"> Contar </string>
+    <string name="texto_b_reiniciar"> Reiniciar </string>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="75sp"
+        android:text="@string/texto_tv_app"
+        />
+
+    <TextView
+        android:id="@+id/incrementar_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="67sp"
+        android:textAlignment="center"
+        android:text="@string/texto_tv_contador"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_b_conteo"
+            android:id="@+id/buton_contar"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_b_reiniciar"
+            android:id="@+id/boton_reiniciar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
